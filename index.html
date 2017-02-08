@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="musicApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://bootswatch.com/slate/bootstrap.min.css" rel="stylesheet">
+    <script src="angular.js"></script>
+    <script src="script.js"></script>
+    <script src="angular-route.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-12">
+            <h1><i class="glyphicon glyphicon-phone-alt hidden-xs"></i>Hello World!</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-9">
+            <img class="img-responsive" src="http://z3b5p43njv610i5qp3nsl17h.wpengine.netdna-cdn.com/wp-content/uploads/sites/85/2014/12/Doggie-in-the-rain_iStock_000034808008Large-copy.jpg">
+            <p>
+                Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody. Dummy texts have been in use by typesetters since the 16th century.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div data-ng-view></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="bootstrap.js"></script>
+</body>
+</html>

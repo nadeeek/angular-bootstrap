@@ -1,0 +1,27 @@
+<div class="form-group">
+    <label for="txtName">Artist Name</label>
+    <input type="text" name="txtName" id="txtName" class="form-control" data-ng-model="item.artist">
+</div>
+<div class="form-group">
+    <label for="genre">Genre :</label>
+    <select name="genre" id="genre" class="form-control" data-ng-model="item.genre">
+        <option value="Rock">Rock</option>
+        <option value="Alternative">Alternative</option>
+        <option value="Rap">Rap</option>
+
+    </select>
+</div>
+<div class="form-group">
+    <label for="rating">Rating :</label>
+    <select name="rating" id="rating" class="form-control" data-ng-model="item.rating">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+</div>
+<div class="form-group">
+    <button class="btn btn-primary" data-ng-click="saveItem()">Save</button>
+    <button class="btn btn-primary" data-ng-click="cancel()">Cancel</button>
+</div>
